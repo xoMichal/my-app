@@ -1,7 +1,8 @@
 import React from 'react';
+import './App.css';
 
 const Footer = () => {
-  return <div id="footer"> 
+  return (<div id="footer"> 
   <div id="left"> 
       <p>Projekt Pierwszy - wszelkie prawa zastrzeżone, 2021 &copy; </p>
   </div>
@@ -12,7 +13,7 @@ const Footer = () => {
   </div>
   
 
-</div>;
+</div>);
 };
 
 export default Footer;

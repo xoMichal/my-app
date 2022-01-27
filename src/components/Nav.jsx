@@ -1,25 +1,11 @@
 import React from 'react';
+import './App.css';
 
 const Nav = () => {
 
-// initial values
 
 
-
-
-// function
-
-
-//events
-
-
-
-
-
-
-
-
-  return <div id="menu"> 
+  return( <div id="menu"> 
   <ol>
       <li>
           <ul>
@@ -37,7 +23,7 @@ const Nav = () => {
       
   </ol>
 
-</div>;
+</div>);
 };
 
 export default Nav;
