@@ -10,11 +10,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-     <Nav/>, najebane, napisz od nowa
-    <MainSection/> //  jest ok
-    <Workers/>, jest okej
-    <Offerts/>, najebane i to ostro, napisz od nowa
-    <Footer/>  // jest ok
+     <Nav/>
+    <MainSection/>
+    <Workers/>
+    <Offerts/>
+    <Footer/>  
     </div>
   ) 
 }
