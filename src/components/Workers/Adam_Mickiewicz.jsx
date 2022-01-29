@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Adam_Mickiewicz = () => {
-  return <div><h3>Adam Mickiewicz [Reklama]</h3>
-  <div class="specialist">  
+  return <div className='reverse'><h3>Adam Mickiewicz [Reklama]</h3>
+  <div className='specialist'>  
      <div id="Adas"></div>  
      <span>Adam Bernard Mickiewicz – polski poeta, działacz polityczny, publicysta, tłumacz, filozof, działacz religijny, mistyk, organizator i dowódca 
          wojskowy, nauczyciel akademicki. Członek i założyciel Towarzystwa Filomatycznego, mesjanista związany z Kołem Sprawy Bożej Andrzeja Towiańskiego. 

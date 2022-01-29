@@ -1,7 +1,7 @@
 import React from 'react';
 import Juliusz_Słowacki from './Workers/Juliusz_Słowacki';
 import Adam_Mickiewicz from './Workers/Adam_Mickiewicz';
-import '../App.css'
+// import '../App.css'
 
 const Workers = () => {
   return  (

@@ -1,19 +1,22 @@
 import React from 'react';
 import boxesInfo from "../data/boxesInfo"
-import './App.css';
+// import './App.css';
 
 const Box = () => {
 
   return(
-  <div>
-    {boxesInfo.map(({ name, isNew}) => (
+  <div className="tiles">
+    {boxesInfo.map(({id, name, isNew}) => (
 
-      <div class="tile"> <div class="dot" style={isNew ? {display:'none'} : {display:'flex'}}><img src="img/dot.svg"/> </div>
-       <span> {name} </span>
-        <small> {isNew ? `${name} (nowość)` : {name}} </small> </div> 
+      <div key={id} className='tile'> <div className='dot' style={isNew ? {display:"flex"}: {display:"none"}} > </div>
+       <span> {name} </span>  
+       <small  >
+        { isNew ? ("(nowość)") : ("")}
+        </small>
+       </div> 
     ))}
 
-
+{/* <div style={isNew ? {display:'none'} : {display:'flex'}} >{isNew ? `${name} (nowość)` : {name}}</div> */}
 
   </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
 const MainSection = () => {
   return ( <div id="first">  
@@ -16,7 +16,7 @@ const MainSection = () => {
 
 
 
-</div>);
-};
+</div>
+);};
 
 export default MainSection;

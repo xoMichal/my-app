@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
 const Footer = () => {
   return (<div id="footer"> 
@@ -8,8 +8,8 @@ const Footer = () => {
   </div>
       
   <div id = "right">  
-       <div id="insta">  <i class="fab fa-instagram"></i> </div> 
-       <div id="fb"> <i class="fab fa-facebook-square"></i> </div> 
+       <div id="insta">  <i className='fab fa-instagram'></i> </div> 
+       <div id="fb"> <i className='fab fa-facebook-square'></i> </div> 
   </div>
   
 
