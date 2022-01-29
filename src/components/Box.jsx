@@ -16,7 +16,7 @@ const Box = () => {
        </div> 
     ))}
 
-{/* <div style={isNew ? {display:'none'} : {display:'flex'}} >{isNew ? `${name} (nowość)` : {name}}</div> */}
+
 
   </div>
   )
